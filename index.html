@@ -1,5 +1,26 @@
-<div id="root">
-</div>
-<audio src="https://c28.radioboss.fm:18047/stream" autoplay loop>
-  Ваш браузер не поддерживает элемент audio.
-</audio>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Mentor Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Мой AI Ментор</h1>
+        <p>Нажмите на кнопку и начните говорить. Для остановки записи отпустите кнопку или просто замолчите.</p>
+        
+        <button id="talkButton">🎙️ Удерживайте, чтобы говорить</button>
+        
+        <div class="status" id="status">Ожидание...</div>
+        
+        <h2>Дневник сессии:</h2>
+        <div class="diary" id="diary">
+            <!-- Записи дневника будут здесь -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
